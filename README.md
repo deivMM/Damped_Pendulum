@@ -1,1 +1,1 @@
-# Damped-Pendulum
+# Damped_Pendulum
