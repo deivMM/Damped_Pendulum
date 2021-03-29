@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.animation import FuncAnimation, PillowWriter
 
-# Swich it to True to show the animation in real time
+# Swich to True to show the animation in real time
 plotRealTime = False
 
 #Physics parameters
