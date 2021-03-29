@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib.animation import FuncAnimation, PillowWriter
 
 # Swich it to True to show the animation in real time
-plotRealTime = False
+plotRealTime = True
 
 #Physics parameters
 g = 9.81
@@ -14,10 +14,10 @@ L = 1
 delta_t = 0.001
 
 #Time to simulate in sec
-t_end = 50
+t_end = 20
 #Initial Conditions
 theta_0 = np.pi*0
-theta_dot_0 = np.pi*1
+theta_dot_0 = 8
 
 # Animation
 fps = 25
@@ -97,4 +97,5 @@ else:
     animate(len(t_grid)-1)
 
 plt.show()
-# an.save("damp_pend_gif.gif", writer=PillowWriter(fps=25))
+# an.save("damp_pend_gif.gif", writer=PillowWriter(fps=10))
+
