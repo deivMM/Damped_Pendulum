@@ -6,7 +6,7 @@ where $\theta$ is the angular displacement of the pendulum from its equilibrium 
 
 This nonlinear equation can be solved by making a change of variable and introducing the angular velocity $\omega=\theta'(t)$. This results in a first-order system of differential equations:
 
-$$\LARGE\theta'(t)=\omega(t)$$
+$$\LARGE\theta'(t)=\frac{d\theta}{dt}=\omega(t)$$
 
 $$\LARGE\omega'(t)=-k\omega-\frac{g}{l}sin\theta$$
 
