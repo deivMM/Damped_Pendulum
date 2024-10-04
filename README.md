@@ -1,5 +1,6 @@
 # Damped Pendulum
 The motion of a damped pendulum can be studied by solving the following second order differential equation:
+
 $$\LARGE\frac{d^2\theta}{dt^2}+{k}\frac{d\theta}{dt}+\frac{g}{l}sin\theta=0$$
 
 where $\theta$ is the angular displacement of the pendulum from its equilibrium position, $t$ is time, $k$ is the damping coefficient, $g$ is the acceleration due to gravity, and $L$ is the length of the pendulum. 
